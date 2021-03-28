@@ -28,7 +28,7 @@ const Gallary = (() =>{
     let ii = 0;
     while(ii <= 5 && arrIndex < arrImageLen){
       let $img = document.createElement('img');
-      $img.src = '/images/'+arrImage[arrIndex];
+      $img.src = 'images/'+arrImage[arrIndex];
       $img.alt = 'image description';
 
       $masonColumn[ii % 3].append($img);
